@@ -2,26 +2,26 @@ package model;
 
 public class Temperatura {
 
-	private double celcius;
+	private double celsius;
 
 	// Setters e Getters
-	public double getCelcius() {
-		return celcius;
+	public double getCelsius() {
+		return celsius;
 	}
 
-	public void setCelcius(double celcius) {
-		this.celcius = celcius;
+	public void setCelcius(double celsius) {
+		this.celsius = celsius;
 	}
-	
-    //Método Kelvin
+
+	// Método Kelvin
 	public double converterParaKelvin() {
-		double kelvin = celcius + 273;
+		double kelvin = celsius + 273;
 		return kelvin;
 	}
 
 	// Método Fahreinheit
 	public double converterParaFahreinheit() {
-		double fahreinheit = (celcius * 1.8) + 32;
+		double fahreinheit = (celsius * 1.8) + 32;
 		return fahreinheit;
 	}
 
