@@ -9,7 +9,7 @@ public class Temperatura {
 		return celsius;
 	}
 
-	public void setCelcius(double celsius) {
+	public void setCelsius(double celsius) {
 		this.celsius = celsius;
 	}
 
